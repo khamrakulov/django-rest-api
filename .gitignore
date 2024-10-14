@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Database files
+db.sqlite3
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Media and Static files (if applicable)
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# Pipenv environment files
+Pipfile.lock
